@@ -103,3 +103,11 @@
     color: #94a3b8;
     margin-top: 2rem;
   }
+
+
+img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
