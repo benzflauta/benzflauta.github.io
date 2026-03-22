@@ -1,35 +1,105 @@
-body {
-font-family: Arial;
-margin: 0;
-background: #0f172a;
-color: white;
-}
-
-header {
-background: #020617;
-padding: 30px;
-text-align: center;
-}
-
-nav {
-text-align: center;
-background: #1e293b;
-padding: 10px;
-}
-
-nav a {
-color: white;
-margin: 10px;
-text-decoration: none;
-}
-
-section {
-padding: 40px;
-}
-
-.project {
-background: #1e293b;
-padding: 20px;
-margin-top: 15px;
-border-radius: 10px;
-}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #1e293b;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin-top: 0.5rem;
+    color: #94a3b8;
+    font-size: 1.1rem;
+  }
+  
+  nav {
+    background-color: #334155;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: #f8fafc;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #38bdf8;
+  }
+  
+  main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+  }
+  
+  section {
+    margin-bottom: 2.5rem;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #38bdf8;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project,
+  .project-detail,
+  .skill-card {
+    background-color: #1e293b;
+    padding: 1.2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project h3,
+  .skill-card h3 {
+    margin-top: 0;
+  }
+  
+  .project a,
+  section a {
+    color: #38bdf8;
+    text-decoration: none;
+  }
+  
+  .project a:hover,
+  section a:hover {
+    text-decoration: underline;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+  
+  ul {
+    padding-left: 1.2rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1e293b;
+    color: #94a3b8;
+    margin-top: 2rem;
+  }
